@@ -1,87 +1,71 @@
-/* Google Font  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
-
-/* Custom CSS  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  list-style: none;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
 }
-::selection {
-  color: black;
-  background-color: #bea060;
+#welcome{
+    background-color: #150734;
+    padding-top: 150px;
 }
-header {
-  width: 100%;
-  height: 160vh;
-  background-color: black;
-  display: flex;
+#welcome h1{
+    color: #fff;
 }
-.header-left-side {
-  padding: 0 0 0 90px;
-  color: white;
+#welcome span{
+    color: orange;
 }
-.header-left-side h1 {
-  color: #bea060;
-  line-height: 1.2em;
-  font-size: 78px;
-  padding-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 400 !important;
+#welcome h2{
+    color: #fff;
 }
-.header-left-side h2 {
-  color: #bea060;
-  font-family: "Inter", sans-serif;
-  font-size: 26px;
-  line-height: 1.2em;
-  font-weight: 500;
-  letter-spacing: 2px;
-  padding: 10px;
+#welcome p{
+    color: #fff;
 }
-.header-left-side p {
-  margin-top: 5%;
-  margin-bottom: 10%;
-  font-family: "Inter", sans-serif;
-  letter-spacing: 2px;
-  font-size: 16px;
-  color: #c1bfbf;
-  line-height: 2;
+#welcome button{
+    padding: 15px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 0px;
 }
-button {
-  padding: 20px 10px;
-  border: 2px solid #bea060;
-  background: transparent;
-  width: 47%;
-  color: white;
-  margin-right: 15px;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
+#welcome img{
+    width: 100%;
 }
-button:hover {
-  background-color: #bea060;
-  transition: 0.7s;
+#project{
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-.btn {
-  width: 97%;
-  background-color: #bea060;
+#project h2{
+    text-align: center;
+    color: #150734;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
-.header-left-side h3 {
-  color: #c1bfbf;
-  padding-top: 80px;
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.header-right-side img {
-  width: 670px;
-  height: 884px;
-  margin-top: 15%;
+#project .col-md-4{
+    margin-bottom: 30px;
+}
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #150734;
+    text-align: center;
+}
+#contact h1{
+    color: orange;
+}
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: none;
 }
