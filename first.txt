@@ -1,6 +1,6 @@
 ========== HEADER ==========
 .nav__logo
-Patrick <span>Moz</span>
+Khushi <span>Tyagi</span>
 
 .nav__link
 Home - About - Services - Projects - Contact
@@ -11,13 +11,13 @@ Home - About - Services - Projects - Contact
 Hello, <span>I’m</span>
 
 .home__title
-Patrick Moz
+Khushi Tyagi
 
 .home__education
-Front-end Developer
+Flutter Developer 
 
 .home__description
-With knowledge in web development and 
+With knowledge in app development and 
 design, I offer the best projects resulting 
 in quality work.
 
