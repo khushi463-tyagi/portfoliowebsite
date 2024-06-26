@@ -1,71 +1,129 @@
-@import url('https://fonts.cdnfonts.com/css/google-sans');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Product Sans', sans-serif;
+ body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: large;
+} 
+nav a{
+	text-decoration: none;
+	color: rgb(91, 43, 65);
+	font-family: 'Mogra', Times, serif;
+	font-size: 25px;
 }
-#welcome{
-    background-color: #150734;
-    padding-top: 150px;
+nav{
+	margin-left: 770px;
+	padding: 25px;
 }
-#welcome h1{
-    color: #fff;
+.hero{
+	margin-top: 80px;
+	margin-left: 200px;
 }
-#welcome span{
-    color: orange;
+.hero img.girl{
+	margin-left: 550px;
+	margin-top: -700px;
+	/* margin-bottom: 1700px; */
 }
-#welcome h2{
-    color: #fff;
+.first{
+	background-color: rgba(245, 189, 198, 0.923);
+	height: 600px;
 }
-#welcome p{
-    color: #fff;
+#ABOUT{
+	background-color: rgba(205, 242, 249, 0.899);
+	margin-top: 24px;
+	height: 600px;
 }
-#welcome button{
-    padding: 15px;
-    width: 150px;
-    margin-top: 30px;
-    background-color: orange;
-    border: none;
-    border-radius: 0px;
+#EDUCATION{
+	background-color: rgba(211, 253, 211, 0.59);
+	margin-top: 15px;
+	height:600px;
 }
-#welcome img{
-    width: 100%;
+#SKILLS{
+	background-color:rgba(253, 207, 253, 0.887);
+	/* margin-top: -24px; */
+	height:700px;
 }
-#project{
-    padding-top: 70px;
-    padding-bottom: 70px;
+#CONTACT{
+	background-color: rgba(255, 189, 200, 0.923);
+	height: 600px;
+	margin-top:-70px ;
 }
-#project h2{
-    text-align: center;
-    color: #150734;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+h1{
+	color:rgb(70, 66, 66);
+	font-family: 'Courgette', Times, serif;
+	font-size: 70px;
+	margin-top: 40px;
 }
-#project .card{
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+h3{
+	color:rgb(54, 50, 50);
+	font-family: 'Courgette', Times, serif;
+	font-size: 40px;
+	margin-left:-20px;
 }
-#project .col-md-4{
-    margin-bottom: 30px;
+h4{
+	color:rgb(54, 50, 50);
+	/* font-family: 'Courgette', Times, serif; */
+	font-size: 25px;
+	margin-left:-20px;
+
 }
-#project .card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+h5{
+	color:rgb(54, 50, 50);
+	font-family: 'Courgette', Times, serif;
+	font-size: 40px;
+	padding: 80px;
 }
-#contact{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: #150734;
-    text-align: center;
+p1{
+	color:rgb(54, 50, 50);
+	font-family: 'roman', Times, serif;
+	font-size: 30px;
+	padding: 40px;
 }
-#contact h1{
-    color: orange;
+h2{
+	color:rgb(54, 50, 50);
+	font-family: 'Courgette', Times, serif;
+	font-size: 40px;
+	padding: 30px;
+	margin-left: 530px;
+	margin-top:-24px;
 }
-#contact h4{
-    color: #fff;
+p{
+	color:rgb(54, 50, 50);
+	font-family: 'Courgette', Times, serif;
+	font-size: 30px;
+	padding: 30px;
+	margin-left: 20px;
+	margin-top: -24px;
+	text-align: center;
 }
-#contact a{
-    color: #fff;
-    text-decoration: none;
+#EDUCATION img.kv{
+	margin-left: 270px;
+	margin-top: 20px;
+}
+#EDUCATION img.glb{
+	margin-left: 790px;
+	margin-top: -870px;
+	/* margin-bottom:3500px ; */
+}
+.hero.girl{
+	margin-left: 1000px;
+
+}
+#SKILLS div{
+	margin-left: 50px;
+} 
+#ABOUT button{
+	margin-left: 590px;
+	font-size: 20px;
+	color: aliceblue;
+	padding: 7px 10px 7px 10px;
+	background-color: rgb(136, 136, 235);
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+	cursor: pointer;
+	border:none;
+
+}
+#ABOUT button:hover{
+	background-color: aliceblue;
+	color: rgb(136, 136, 235);
 }
